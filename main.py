@@ -6,6 +6,12 @@ sub=x-y
 mul=x*y
 div=x/y
 
+#This is comment
+
+"""
+multiple comment
+"""
+
 print(sum)
 print(sub)
 print(mul)
