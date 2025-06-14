@@ -1,41 +1,28 @@
-#1.Numeric data type
+#Boolean data type
+isBanglasdeshi=True
+print(isBanglasdeshi)
 
-Age=20  #Int data type
-print(Age)
+isChattogram=False
+print(False)
 
-Marks= 81.7 #Float data type
-print(Marks)
+#None data type
+Taka=None
+print(Taka)
 
-complex_number= 5+2j #complex data type
-print(complex_number)
+#Dictionary data type
+person={
+    'first name':'Rajab',
+    'last name':'Mehedi',
+    'age':'20',
+    'isBangaladeshi':True
+}
+print(person)
+print(person['age'])#"if i want to show target key 'age'  "
 
-#2.String data type
+#Set data type-mutable
+uniqe_numbers={1,2,5,4,3,2,5,1}
+print(uniqe_numbers)
 
-name= "Rajab Mohammad Mehedi" #String data type
-print(name)
-
-#3.Sequence data type
-
-#3.1 List data type
-Club=["Barcelona","Liverpool","PSG","Inter"]
-print(Club)
-
-Latter=["A","B","C","D","E","F","G"]
-print(Latter[5])
-
-Mixed=["Barcelona","200","30.5","9+5Y"]
-print(Mixed)
-
-#3.2 Tuple data type
-#this id simmilar to list but imutable it is
-
-#3.2 Range data type
-
-numbers= range(0,20)
-print(*numbers)
-
-numbers1= range(0,20,3)
-print(*numbers1)
-
-numbers2= range(0,20,4)
-print(*numbers2)
+#frozenset-immutable
+uniqe_numbers=frozenset([1,4,2,5,3,4,5,2,6,8,3,7])
+print(uniqe_numbers)
