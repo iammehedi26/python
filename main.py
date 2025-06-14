@@ -1,8 +1,20 @@
-#Mutable data type
-#List,Dictionary,sets
-l=[1,2,3,4]
-first_location=id(l)
-print(first_location)
-l[0]=4
-second_location=id(l)
-print(second_location)
+#string repetition
+name="ostad "
+repeat=name *10
+print(repeat)
+
+#string concatenation
+str1="Iam "
+str2="Mehedi"
+
+combine=str1+str2
+print(combine)
+
+combine="{} {} !".format(str1,str2)
+print(combine)
+
+combine="".join((str1 ,str2))+"!!"
+print(combine)
+
+combine="%s %s !!!"% (str1,str2)
+print(combine)
