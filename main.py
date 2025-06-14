@@ -1,9 +1,8 @@
-#imutable data type
-#immutable object cannot be modified after their correction
-#integer, floating,strings,tuples,frozen set
-a=6
-first_location=id(a)
-a=6
-second_location=id(a)
+#Mutable data type
+#List,Dictionary,sets
+l=[1,2,3,4]
+first_location=id(l)
 print(first_location)
+l[0]=4
+second_location=id(l)
 print(second_location)
