@@ -1,20 +1,34 @@
-#string repetition
-name="ostad "
-repeat=name *10
-print(repeat)
+text= "Hello World"
+print(text.upper())
 
-#string concatenation
-str1="Iam "
-str2="Mehedi"
+text= "HELLO WORLD"
+print(text.lower())
 
-combine=str1+str2
-print(combine)
+text= "hello world"
+print(text.capitalize())
 
-combine="{} {} !".format(str1,str2)
-print(combine)
+text= "hello world"
+print(text.title())
 
-combine="".join((str1 ,str2))+"!!"
-print(combine)
+text= "hello world"
+print(text.swapcase())
 
-combine="%s %s !!!"% (str1,str2)
-print(combine)
+#replace a substrings
+text= "hello world"
+print(text.replace("world", "Mehedi"))
+
+text= "hello-world-with-python"
+print(text.split("-"))
+
+text= ['hello', 'world', 'with', 'python']
+print ("-".join(text))
+
+#strip whitespace from both ends
+text=" hellow world "
+print(text.strip())
+
+#remove leading whitespace
+print(text.lstrip())
+
+#remove trailing whitespace
+print(text.rstrip())
