@@ -1,27 +1,26 @@
-# Check if string starts with a substring
-#we receive answer in true or false
-text="Hellow world"
-print(text.startswith("Hellow"))
+import math
+print(math.sqrt(25)) #squre root
 
-# Check if string ends with a substring
-#we receive answer in true or false
-text="Hellow World"
-print(text.endswith("Hellow"))
+#power
+print(math.pow(5,3))
 
-#Find the position of substring
-print(text.find("world"))
+#Trigonometric functions
+print(math.cos(math.radians(90)))
 
-#Count occurrences of a substring
-print(text.find("o"))
+#Log
+print(math.log(15))
+print(math.log10(15))
 
-#Check all character are alphanumeric
-print(text.isalnum())
+#Factotial
+print(math.factorial(4))
 
-#Check all character are alphabetic
-print(text.isalpha())
+#constant
+print(math.pi)
 
-#Check all character are digit
-print(text.isdigit())
+#Go,sha,go
+num1=12
+num2=9
+print(math.gcd(num1,num2))
 
-#check is the string are titlecased
-print(text.istitle())
+#Lo sha go
+print(math.lcm(num1,num2))
