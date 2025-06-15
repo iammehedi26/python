@@ -1,34 +1,27 @@
-text= "Hello World"
-print(text.upper())
+# Check if string starts with a substring
+#we receive answer in true or false
+text="Hellow world"
+print(text.startswith("Hellow"))
 
-text= "HELLO WORLD"
-print(text.lower())
+# Check if string ends with a substring
+#we receive answer in true or false
+text="Hellow World"
+print(text.endswith("Hellow"))
 
-text= "hello world"
-print(text.capitalize())
+#Find the position of substring
+print(text.find("world"))
 
-text= "hello world"
-print(text.title())
+#Count occurrences of a substring
+print(text.find("o"))
 
-text= "hello world"
-print(text.swapcase())
+#Check all character are alphanumeric
+print(text.isalnum())
 
-#replace a substrings
-text= "hello world"
-print(text.replace("world", "Mehedi"))
+#Check all character are alphabetic
+print(text.isalpha())
 
-text= "hello-world-with-python"
-print(text.split("-"))
+#Check all character are digit
+print(text.isdigit())
 
-text= ['hello', 'world', 'with', 'python']
-print ("-".join(text))
-
-#strip whitespace from both ends
-text=" hellow world "
-print(text.strip())
-
-#remove leading whitespace
-print(text.lstrip())
-
-#remove trailing whitespace
-print(text.rstrip())
+#check is the string are titlecased
+print(text.istitle())
